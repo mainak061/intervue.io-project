@@ -1,262 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intervue - Technical Interview Resources</title>
+    <title>intervue - Technical Interview Resources</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <!-- <style>@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');</style> -->
-    <!-- Header -->
     <header class="header">
         <div class="container">
             <div class="nav-wrapper">
                 <div class="logo">
-                    <span class="logo-text">intervue</span>
+                    <span class="logo-text">int<span class="logo-accent">ë</span>rvue</span>
                 </div>
-                <nav class="nav">
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
                     <a href="#" class="nav-link">🎯 Become an Interviewer</a>
                     <a href="#" class="nav-link">Features</a>
                     <a href="#" class="nav-link">Pricing</a>
                     <a href="#" class="nav-link">Start a trial</a>
                     <a href="#" class="nav-link">Login</a>
-                    <a href="#" class="nav-link btn-signup">Sign up</a>
+                    <button class="btn-signup">Sign up</button>
                 </nav>
+
+                <!-- Mobile Hamburger -->
+                <button title="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="nav-mobile">
+                <a href="#" class="nav-link-mobile">🎯 Become an Interviewer</a>
+                <a href="#" class="nav-link-mobile">Features</a>
+                <a href="#" class="nav-link-mobile">Pricing</a>
+                <a href="#" class="nav-link-mobile">Start a trial</a>
+                <a href="#" class="nav-link-mobile">Login</a>
+                <button class="btn-signup-mobile">Sign up</button>
+            </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-
-
     <section class="hero">
         <div class="container">
             <h1 class="hero-title">Technical Interview Resources</h1>
-            <p class="hero-subtitle">Practice coding problems and algorithms</p>
-            <div class="search-bar">
-                <input type="text" placeholder="Search for interview topics" class="search-input">
+            <p class="hero-subtitle">Practice coding interviews and algorithms</p>
+            <div class="search-container">
+                <input type="text" placeholder="🔍 Search for interview topics" class="search-input">
             </div>
         </div>
     </section>
 
     <!-- Resources Grid -->
-
-
     <section class="resources">
         <div class="container">
             <div class="resources-grid">
                 <!-- Row 1 -->
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag easy">EASY</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-blue">EASY</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
 
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag medium">MEDIUM</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-orange">MEDIUM</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
 
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag hard">HARD</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-green">HARD</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
 
                 <!-- Row 2 -->
-                 
-
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag easy">EASY</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-blue">EASY</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
 
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag medium">MEDIUM</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-orange">MEDIUM</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
 
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag hard">HARD</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-green">HARD</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
-
 
                 <!-- Row 3 -->
-                
-                
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag easy">EASY</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-blue">EASY</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
 
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag medium">MEDIUM</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-orange">MEDIUM</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
 
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag hard">HARD</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-green">HARD</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
 
-                
-                
                 <!-- Row 4 -->
-
-
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag easy">EASY</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-blue">EASY</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
 
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag medium">MEDIUM</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-orange">MEDIUM</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
 
                 <div class="resource-card">
                     <div class="card-header">
-                        <span class="difficulty-tag hard">HARD</span>
-                        <span class="category">DATA STRUCTURES & ALGORITHMS</span>
+                        <span class="tag tag-green">HARD</span>
+                        <span class="card-meta">DATA STRUCTURES & ALGORITHMS</span>
                     </div>
                     <h3 class="card-title">Design a free food App</h3>
-                    <p class="card-description">We conducted this guide after speaking with top engineering teams at
-                        Facebook, Airbnb, Dropbox and more to understand what they look for in candidates during
-                        interviews.</p>
+                    <p class="card-description">We received this guide after speaking with our community of interviewers, where they shared the most common topics of mock interviews.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Security Section -->
-
-
     <section class="security">
         <div class="container">
             <h2 class="security-title">Security is our top priority</h2>
-            <p class="security-subtitle">We take security seriously and have implemented enterprise-grade security based
-                on the design.</p>
-
+            <p class="security-subtitle">We understand that security is paramount when dealing with enterprise-grade service based on its design.</p>
+            
             <div class="security-features">
                 <div class="security-feature">
                     <div class="feature-icon">🔧</div>
-                    <h3>SOC 2 Compliant</h3>
-                    <p>Protecting your data at every step with comprehensive security measures.</p>
+                    <h3>Protecting your data at every touchpoint</h3>
+                    <p>Protecting your data at every touchpoint is our top priority.</p>
                     <a href="#" class="feature-link">→</a>
                 </div>
-
+                
                 <div class="security-feature">
                     <div class="feature-icon">🛡️</div>
-                    <h3>GDPR Compliant</h3>
-                    <p>Enterprise-grade monitoring, enhanced security features like SSO, and advanced user management.
-                    </p>
+                    <h3>SOC 2 Compliant</h3>
+                    <p>Enterprise-grade monitoring, encrypted data in transit and at rest, and regular security audits.</p>
                     <a href="#" class="feature-link">→</a>
                 </div>
-
+                
                 <div class="security-feature">
                     <div class="feature-icon">⚡</div>
                     <h3>Optimized for Startups</h3>
                     <p>Optimized for Startups</p>
                     <a href="#" class="feature-link">→</a>
                 </div>
-            </div>
-
-            <div class="security-badges">
-                <div class="badge">🔒 Secured for Startups</div>
-                <div class="badge">🏢 Secured for Enterprises</div>
+                
+                <div class="security-feature">
+                    <div class="feature-icon">🏢</div>
+                    <h3>Optimized for Enterprises</h3>
+                    <p>Optimized for Enterprises</p>
+                    <a href="#" class="feature-link">→</a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Testimonial Section -->
-
-
     <section class="testimonial">
         <div class="container">
             <div class="testimonial-content">
                 <div class="testimonial-image">
-                    <img src="https://picsum.photos/200/300.jpg" alt="Nikhil Gupta" class="testimonial-avatar">
+                    <img src="/placeholder.svg?height=200&width=200" alt="Niket Gupta" class="testimonial-avatar">
                 </div>
                 <div class="testimonial-text">
                     <blockquote>
-                        "After interviewing candidates on Intervue, we were able to convert at least 5% of people from
-                        our talent pool."
+                        "After interviewing candidates on intervue, we were able to convert at least 5% of people from our talent acquisition, Yuki"
                     </blockquote>
                     <div class="testimonial-author">
-                        <strong>Nikhil Gupta</strong>
-                        <span>Group Product talent acquisition, Tata</span>
+                        <strong>Niket Gupta</strong>
+                        <p>Group Product talent acquisition, Yuki</p>
                     </div>
                     <a href="#" class="testimonial-link">See more customer stories →</a>
                 </div>
@@ -265,30 +235,30 @@
     </section>
 
     <!-- Products Section -->
-
-
     <section class="products">
         <div class="container">
-            <h2 class="products-title">Explore more products on Intervue</h2>
-
+            <h2 class="products-title">Explore more products on intervue</h2>
+            
             <div class="products-grid">
                 <div class="product-card">
                     <div class="product-header">
                         <span class="product-badge">Marketing Interviews</span>
                     </div>
                     <div class="product-content">
+                        <div class="product-avatars">
+                            <img src="/placeholder.svg?height=40&width=40" alt="Avatar 1" class="product-avatar">
+                            <img src="/placeholder.svg?height=40&width=40" alt="Avatar 2" class="product-avatar">
+                            <img src="/placeholder.svg?height=40&width=40" alt="Avatar 3" class="product-avatar">
+                        </div>
                         <h3>On-demand</h3>
-                        <p>Hire marketing talent with expert-level technical skills, delivered by our team of experts.
-                        </p>
+                        <p>Get instant access to our network of expert interviewers, available 24/7 for your hiring needs.</p>
                         <a href="#" class="product-link">Know more →</a>
                     </div>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-header">
-                        <span class="product-badge">Live Interviews</span>
-                    </div>
                     <div class="product-content">
+                        <img src="/placeholder.svg?height=120&width=200" alt="Live interviews" class="product-image">
                         <h3>Live interviews</h3>
                         <p>Our live coding environment & integrated video calls.</p>
                         <a href="#" class="product-link">Know more →</a>
@@ -296,9 +266,6 @@
                 </div>
 
                 <div class="product-card">
-                    <div class="product-header">
-                        <span class="product-badge">Assessments</span>
-                    </div>
                     <div class="product-content">
                         <h3>Assessments</h3>
                         <p>Evaluate technical skills with MCQ, Programming and System Design questions.</p>
@@ -310,31 +277,39 @@
     </section>
 
     <!-- FAQ Section -->
-
-
     <section class="faq">
         <div class="container">
             <h2 class="faq-title">FAQs</h2>
-
+            <p class="faq-subtitle">Find answers to the most asked questions to clear all your doubts.</p>
+            
             <div class="faq-list">
                 <div class="faq-item">
-                    <div class="faq-question">
+                    <button class="faq-question" onclick="toggleFaq(this)">
                         <span>How do I schedule an interview?</span>
-                        <span class="faq-toggle">+</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can schedule an interview by logging into your account and selecting the "Schedule Interview" option from your dashboard.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
-                    <div class="faq-question">
+                    <button class="faq-question" onclick="toggleFaq(this)">
                         <span>Will I be charged per interview?</span>
-                        <span class="faq-toggle">+</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our pricing is based on your subscription plan. Please check our pricing page for detailed information.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
-                    <div class="faq-question">
+                    <button class="faq-question" onclick="toggleFaq(this)">
                         <span>Can I get a trial for on-demand interviews?</span>
-                        <span class="faq-toggle">+</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we offer a free trial for new users. You can start your trial by signing up on our platform.</p>
                     </div>
                 </div>
             </div>
@@ -347,20 +322,25 @@
     </section>
 
     <!-- Footer -->
-
-    
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
                     <div class="logo">
-                        <span class="logo-text">intervue</span>
+                        <span class="logo-text">int<span class="logo-accent">ë</span>rvue</span>
                     </div>
                     <div class="social-links">
-                        <a href="#">Facebook</a>
-                        <a href="#">Instagram</a>
-                        <a href="#">LinkedIn</a>
-                        <a href="#">Pinterest</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Pinterest</a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Hire better & faster</h4>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Enter your email address" class="newsletter-input">
+                            <button class="newsletter-btn">→</button>
+                        </div>
                     </div>
                 </div>
 
@@ -377,50 +357,46 @@
                     <div class="footer-column">
                         <h4>Resources</h4>
                         <a href="#">Blog</a>
-                        <a href="#">Help Center</a>
                         <a href="#">FAQ</a>
-                        <a href="#">Coding Solutions</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Online Status</a>
                         <a href="#">Press Kit</a>
                     </div>
 
                     <div class="footer-column">
                         <h4>Products</h4>
                         <a href="#">Interviews</a>
-                        <a href="#">Flexible schedules</a>
-                        <a href="#">FAQ</a>
-                        <a href="#">Live interviews</a>
-                        <a href="#">Coding Solutions</a>
+                        <a href="#">Favourite candidates</a>
+                        <a href="#">Integrations</a>
+                        <a href="#">API</a>
+                        <a href="#">Chrome Extension</a>
+                        <a href="#">Offline Studio</a>
                         <a href="#">Products</a>
                     </div>
 
                     <div class="footer-column">
                         <h4>Product</h4>
                         <a href="#">Interviews</a>
-                        <a href="#">Live interviews</a>
-                        <a href="#">Assessments</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Integrations</a>
+                        <a href="#">Chrome Extension</a>
+                        <a href="#">Products</a>
                     </div>
                 </div>
             </div>
 
-            <div class="newsletter">
-                <h4>Hire better & faster</h4>
-                <div class="newsletter-form">
-                    <input type="email" placeholder="Enter your email address" class="newsletter-input">
-                    <button class="newsletter-btn">→</button>
-                </div>
-            </div>
-
             <div class="footer-bottom">
+                <p>© 2023 Intervue. Crafted by good minds.</p>
                 <div class="footer-bottom-links">
                     <a href="#">Disclaimers</a>
                     <a href="#">Information</a>
                     <a href="#">Cookie Policy</a>
-                    <a href="#">GDPR</a>
+                    <a href="#">Audits</a>
                 </div>
-                <p class="copyright">© 2023 Intervue. Crafted by good minds.</p>
             </div>
         </div>
     </footer>
-</body>
 
+    <script src="main.js"></script>
+</body>
 </html>

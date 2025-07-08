@@ -243,7 +243,7 @@ body {
     line-height: 1.6;
 }
 
-
+/* Security Section */
 .security {
     background: #f8f9fa;
     padding: 4rem 0;
@@ -348,7 +348,7 @@ body {
     text-decoration: none;
 }
 
-
+/* Products Section */
 .products {
     padding: 4rem 0;
 }
@@ -635,7 +635,7 @@ body {
     color: white;
 }
 
-
+/* Responsive Design */
 @media (max-width: 768px) {
     .nav-desktop {
         display: none;
